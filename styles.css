@@ -7,82 +7,35 @@ body {
     background-position: center center;
     min-height: 100vh;
 }
-/* 
-.card {
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  max-width: 600px;
-  padding: 30px 40px 40px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  text-align: center;
-  position: relative;
-}
-
-.subtitle {
-  font-size: 14px;
-  margin: 0 0 20px;
-  font-weight: 600;
-}
-
-p {
-  font-size: 13px;
-  line-height: 1.5;
-  margin: 10px 0;
-  color: #333;
-} */
 
 .intro {
     background-color: #8B0000;
     text-align: justify;
     max-width: 500px;        
-    margin-left: 100px;       
-    margin-right: 50px;      
-    margin-top: 100px;        
-    margin-bottom: 100px;     
-    padding: 20px 0;         
+    margin-left: 80px;       
+    margin-right: 40px;      
+    margin-top: 20px;        
+    margin-bottom: 20px;     
+    padding: 20px 20px;         
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;     
     color: whitesmoke;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: left; 
     gap: 20px;
 
 }
 
-.layout {
+.layout-index {
   width: 100%;
 
   display: flex;
   gap: 16px;
 }
 
-.grow1 { 
+.box1-index { 
     flex-grow: 1; 
-}
-
-.layout-my-coding-journey {
-  width: 100%;
-  display: flex;
-  gap: 16px;
-}
-
-.box-my-coding-journey { 
-    flex-grow: 1; 
-}
-
-.my-coding-journey {
-    background-color:#EDF2F4;
-    text-align: center;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px 40px;         
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 5px;     
-    color: black;
-    gap: 20px;
 }
 
 .about-me {
@@ -105,12 +58,14 @@ p {
 
 .profile-img {
     display: block;
-    max-width: 400px;     
+    max-width: 300px;     
     width: 100%;           
     height: auto; 
+    max-height: 300px;
     margin-left: auto;
-    margin-right: auto; 
-    border-radius: 10px;   
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;  
 }
 
 a {
@@ -182,4 +137,41 @@ a {
 .weblinks{
     display: inline-block;
     margin: 10px; 
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.layout-my-coding-journey {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.box-my-coding-journey { 
+    flex-grow: 1; 
+}
+
+.my-coding-journey {
+    background-color:#660708;
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 40px;         
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;     
+    color: whitesmoke;
+    gap: 20px;
 }
