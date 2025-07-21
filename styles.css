@@ -11,61 +11,88 @@ body {
 .intro {
     background-color: #8B0000;
     text-align: justify;
-    max-width: 500px;        
-    margin-left: 80px;       
-    margin-right: 40px;      
-    margin-top: 20px;        
-    margin-bottom: 20px;     
-    padding: 20px 20px;         
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 10px;     
+    max-width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    padding: 20px 20px;
+    font-family: "consolas", sans-serif;
+    border-radius: 10px;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
-    align-items: left; 
+    align-items: left;
     gap: 20px;
 
 }
 
 .layout-index {
-  width: 100%;
-
-  display: flex;
-  gap: 16px;
+    width: 100%;
+    display: flex;
+    gap: 16px;
 }
 
-.box1-index { 
-    flex-grow: 1; 
+.box1-index {
+    flex-grow: 1;
 }
 
 .about-me {
     text-align: justify;
-    max-width: 500px;        
-    margin-left: 100px;       
-    margin-right: 50px;      
-    margin-top: 100px;        
-    margin-bottom: 100px;     
-    padding: 20px 0;         
+    max-width: 500px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 10px;     
+    border-radius: 10px;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     gap: 20px;
+}
 
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 40px;
+    margin: 50px 100px;
+}
+
+.grow1 {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.techstack img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.techstack {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
 }
 
 .profile-img {
     display: block;
-    max-width: 300px;     
-    width: 100%;           
-    height: auto; 
+    max-width: 300px;
+    width: 100%;
+    height: auto;
     max-height: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    border-radius: 10px;  
+    border-radius: 10px;
 }
 
 a {
@@ -77,30 +104,32 @@ a {
 
 .title-my-coding-journey {
     text-align: center;
-    color: whitesmoke; 
+    color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
-    max-width: 700px;      
-    margin-left: auto;     
-    margin-right: auto;    
-    margin-top: 30px;      
-    margin-bottom: 70px;   
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
     padding: 10px 0;
-    font-size: 2rem;  
+    font-size: 2rem;
 }
+
 .title {
     text-align: center;
-    color: whitesmoke; 
+    color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
-    max-width: 700px;      
-    margin-left: auto;     
-    margin-right: auto;    
-    margin-top: 30px;      
-    margin-bottom: 30px;   
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 10px 0;
-    font-size: 2rem;  
+    font-size: 2rem;
 }
+
 .header {
     background-color: #8B0000;
     display: flex;
@@ -109,34 +138,44 @@ a {
     padding: 0 20px;
     height: 60px;
 }
-.header a:hover {
-    color: black;           
-    background: #fff;         
-    padding: 4px 10px;        
+
+.header a {
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
 }
-.left_links{
+
+.header a:hover {
+    color: black;
+    background: #fff;
+    padding: 10px 10px;
+}
+
+.left_links {
     margin: 0;
     padding: 0;
 }
+
 .right_links {
     margin: 0;
     padding: 0;
-    text-align: right; 
+    text-align: right;
 }
 
 .right_links ul {
-    list-style: none; 
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .right_links li {
-    display: inline-block; 
-    margin: 10px; 
-}
-.weblinks{
     display: inline-block;
-    margin: 10px; 
+    margin: 10px;
+}
+
+.weblinks {
+    display: inline-block;
+    margin: 10px;
 }
 
 .social-icon {
@@ -154,24 +193,24 @@ a {
 }
 
 .layout-my-coding-journey {
-  width: 100%;
-  display: flex;
-  gap: 16px;
+    width: 100%;
+    display: flex;
+    gap: 16px;
 }
 
-.box-my-coding-journey { 
-    flex-grow: 1; 
+.box-my-coding-journey {
+    flex-grow: 1;
 }
 
 .my-coding-journey {
-    background-color:#660708;
+    background-color: #8B0000;
     text-align: center;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    padding: 40px 40px;         
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 5px;     
+    padding: 40px 40px;
+    font-family: "consolas", sans-serif;
+    border-radius: 5px;
     color: whitesmoke;
     gap: 20px;
 }
